@@ -1,0 +1,39 @@
+[*]
+[*] GTKWave Analyzer v3.3.111 (w)1999-2020 BSI
+[*] Sat Aug 13 17:17:26 2022
+[*]
+[dumpfile] "/home/yc/projects/gatemate/hello_mate/sim/blinky.ghw"
+[dumpfile_mtime] "Sat Aug 13 17:17:22 2022"
+[dumpfile_size] 1729572
+[savefile] "/home/yc/projects/gatemate/hello_mate/sim/blinky.sav"
+[timestart] 0
+[size] 1920 1080
+[pos] -1 -727
+*-36.926731 0 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+[treeopen] top.
+[treeopen] top.blinky_tb.
+[treeopen] top.blinky_tb.dut.
+[sst_width] 211
+[signals_width] 126
+[sst_expanded] 1
+[sst_vpaned_height] 353
+@28
+top.blinky_tb.dut.clk
+top.blinky_tb.dut.rst
+top.blinky_tb.dut.clk_en
+top.blinky_tb.dut.led_dir
+@800023
+#{top.blinky_tb.dut.led_bar[7:0]} top.blinky_tb.dut.led_bar[7] top.blinky_tb.dut.led_bar[6] top.blinky_tb.dut.led_bar[5] top.blinky_tb.dut.led_bar[4] top.blinky_tb.dut.led_bar[3] top.blinky_tb.dut.led_bar[2] top.blinky_tb.dut.led_bar[1] top.blinky_tb.dut.led_bar[0]
+@29
+top.blinky_tb.dut.led_bar[7]
+top.blinky_tb.dut.led_bar[6]
+top.blinky_tb.dut.led_bar[5]
+top.blinky_tb.dut.led_bar[4]
+top.blinky_tb.dut.led_bar[3]
+top.blinky_tb.dut.led_bar[2]
+top.blinky_tb.dut.led_bar[1]
+top.blinky_tb.dut.led_bar[0]
+@1001201
+-group_end
+[pattern_trace] 1
+[pattern_trace] 0

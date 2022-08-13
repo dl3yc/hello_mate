@@ -1,0 +1,29 @@
+# VHDL/Yosys git ignore file
+
+# auto-generated files
+
+# synthesis objects
+*.v
+*.log
+*.TXT
+*.refwire
+*.refparam
+*.refcomp
+*.pos
+*.pathes
+*.net
+*.id
+*.PRN
+*.cdf
+*.V
+*.pin
+*.place
+*.bit
+*.cfg
+*.SDF
+*.used
+
+# simulation objects
+work/*
+*.ghw
+*.o

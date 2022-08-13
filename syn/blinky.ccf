@@ -1,0 +1,12 @@
+## blinky_syn.ccf
+
+Pin_in   "clk"  Loc = "IO_SB_A8" | SCHMITT_TRIGGER=true;
+Pin_in   "rst_n"  Loc = "IO_EB_B0"; # SW3
+Pin_out  "led_n[0]"  Loc = "IO_EB_B1"; # D1
+Pin_out  "led_n[1]"  Loc = "IO_EB_B2"; # D2
+Pin_out  "led_n[2]"  Loc = "IO_EB_B3"; # D3
+Pin_out  "led_n[3]"  Loc = "IO_EB_B4"; # D4
+Pin_out  "led_n[4]"  Loc = "IO_EB_B5"; # D5
+Pin_out  "led_n[5]"  Loc = "IO_EB_B6"; # D6
+Pin_out  "led_n[6]"  Loc = "IO_EB_B7"; # D7
+Pin_out  "led_n[7]"  Loc = "IO_EB_B8"; # D8
