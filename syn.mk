@@ -1,5 +1,5 @@
 syn_%: $(WORKDIR)/%.v $(SYNDIR)/%.ccf | $(WORKDIR)
-	cd $(WORKDIR); wine "../$(PR)" "-i $*.v -o $* -ccf ../$(SYNDIR)/$*.ccf"
+	cd $(WORKDIR); ../$(PR) -i $*.v -o $* -ccf ../$(SYNDIR)/$*.ccf
 
 $(WORKDIR)/%.v: $(SRC) | $(WORKDIR)
 	yosys $(YOSYS_MODULE) -p 'ghdl $(GHDLFLAGS) $(SRC) -e $*_syn; chformal -remove; synth_gatemate -top $*_syn -nomx8; write_verilog -noattr $(WORKDIR)/$*.v'

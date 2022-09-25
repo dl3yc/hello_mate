@@ -22,5 +22,5 @@ Building
 The Makefile provides these commands:
  * **make sim_blinky**: start simulation
  * **make syn_blinky**: synthesize, place and route the design
- * **make pgm_blinky**: programm fpga
- * **make pgm-flash_blinky**: make programming of fpga consist
+ * **make pgm_blinky**: program fpga
+ * **make pgm-flash_blinky**: make programming of fpga consistant

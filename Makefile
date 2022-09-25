@@ -1,6 +1,6 @@
 GTKW		= gtkwave
 GHDL		= ghdl
-PR			= ../cc-toolchain-win/bin/p_r/p_r.exe
+PR			= ../cc-toolchain-linux/bin/p_r/p_r
 GHDLFLAGS	= --std=08 --workdir=$(WORKDIR)
 SIMTIME		?= 1ms 
 YOSYS		= yosys
